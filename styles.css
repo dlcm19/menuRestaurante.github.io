@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img-pizza.jpg);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.mensajeDoble, .mensajePizza, .mensajeMesa, .mensajeAgrgarPizza {
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.inputAgregarMesa, .inputAgregarMenu, .containerMesa {
+    margin-bottom: 20px;
+}
+
+.inputAgregarMesa select, .inputAgregarMenu input, .inputAgregarMenu button, .btnAgregarMesa {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btnAgregarMesa, .botonAgregarMenu {
+    background-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.btnAgregarMesa:hover, .botonAgregarMenu:hover {
+    background-color: #4cae4c;
+}
+
+.containerMesa {
+    display: flex;
+    flex-direction: column;
+}
+
+.mesa {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mesa div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 10px;
+}
